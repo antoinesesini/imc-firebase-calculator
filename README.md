@@ -45,9 +45,9 @@ Voici la section mise à jour sur le calcul de l'IMC et l'écriture dans la base
 
 Pour calculer l'IMC, l'application prend les valeurs de poids et de taille saisies par l'utilisateur. Elle effectue les vérifications nécessaires pour s'assurer que ces valeurs sont valides (nombre positif) et calcule l'IMC selon la formule suivante : 
 
-\[
+$$
 \text{IMC} = \frac{\text{Poids}}{\left(\frac{\text{Taille}}{100}\right)^2}
-\]
+$$
 
 Une fois le calcul effectué, les accents et les majuscules du nom sont standardisés pour faciliter la recherche ultérieure. Les informations (nom standardisé, poids, taille et IMC) sont ensuite enregistrées dans la base de données Firebase sous la référence `users`. Voici comment ces données sont enregistrées :
 
