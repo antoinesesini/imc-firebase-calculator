@@ -43,7 +43,7 @@ Voici la section mise à jour sur le calcul de l'IMC et l'écriture dans la base
 
 ### Calcul de l'IMC et écriture dans la BDD
 
-Pour calculer l'IMC, l'application prend les valeurs de poids et de taille saisies par l'utilisateur. Elle effectue les vérifications nécessaires pour s'assurer que ces valeurs sont valides (nombre positif) et calcule l'IMC selon la formule suivante : 
+Pour calculer l'IMC, l'application prend les valeurs de poids en kg et de taille en cm saisies par l'utilisateur. Elle effectue les vérifications nécessaires pour s'assurer que ces valeurs sont valides (nombre positif) et calcule l'IMC selon la formule suivante : 
 
 $$
 \text{IMC} = \frac{\text{Poids}}{\left(\frac{\text{Taille}}{100}\right)^2}
